@@ -1,0 +1,25 @@
+{
+  "name": "twitter-followers",
+  "author": "James Grams <james@game103.net> (https://game103.net)",
+  "version": "1.0.0",
+  "description": "Find Twitter Followers Ordered By Follower Count",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "dotenv": "^8.2.0",
+    "minimist": "^1.2.5"
+  },
+  "engines": {
+    "node": ">= 10.10.0",
+    "npm": ">= 3.0.0"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ]
+}
