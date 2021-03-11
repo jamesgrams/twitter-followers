@@ -8,7 +8,7 @@ const minimist = require("minimist");
 const fs = require("fs");
 require('dotenv').config();
 
-const SEPERATOR = "|";
+const SEPERATOR = "||";
 const OUTPUT_FILE = "output.txt";
 const BEARER_TOKEN = process.env.TWITTER_FOLLOWERS_BEARER;
 const FOLLOWERS_API_URL = "https://api.twitter.com/1.1/followers/list.json?count=200&screen_name="
